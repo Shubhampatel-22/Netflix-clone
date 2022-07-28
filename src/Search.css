@@ -1,0 +1,52 @@
+.header{
+    height: 50px;
+    background-color: #111;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.content{
+    padding-left: 20px;
+    display: flex;
+    color: white;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+
+.cards{
+    margin-top: 5px;
+    width: 95%;
+    margin-bottom: 5px;
+    display: flex;
+    object-fit: contain;
+    border-radius: 5px;
+    border: 1px solid #111;
+    border-color: black;
+    box-shadow: 2px 2px rgb(139, 137, 137);
+}
+
+.card__content{
+    padding-top: 25px;
+}
+
+.title{
+    color: #111;
+    padding-bottom: 4px;
+}
+
+.poster{
+    border-radius: 5%;
+    padding: 8px;
+    width: 150px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.overview{
+    color: #111;
+}
